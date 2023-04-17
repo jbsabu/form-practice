@@ -12,6 +12,36 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@keyframes slidein {
+  from {
+    color:rgb(255, 60, 0);
+    -webkit-transform: scale(2, 2);
+    -moz-transform: scale(2, 2);
+    -o-transform: scale(2, 2);
+    transform: scale(152, 1022);
+  }
+  25% {
+    color:rgb(47, 255, 0)
+  }
+  50% {
+    color:rgb(0, 255, 225)
+  }
+  75% {
+    color:rgb(85, 0, 255)
+  }
+  to {
+    color:rgb(255, 0, 234)
+    
+  }
+}
+
+label{
+  display: inline-block;
+
+  transition: all 1s;
+  /* animation: 1s infinite alternate slidein; */
+  animation-iteration-count: infinite;
+}
 
 .App-header {
   background-color: #282c34;
